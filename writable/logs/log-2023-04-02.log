@@ -1,0 +1,192 @@
+CRITICAL - 2023-04-02 22:22:25 --> Too few arguments to function App\Controllers\User::update(), 0 passed in C:\xampp\htdocs\vote\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\User->update()
+#1 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-02 22:24:40 --> Too few arguments to function App\Controllers\User::updatee(), 0 passed in C:\xampp\htdocs\vote\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\User->updatee()
+#1 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-02 22:31:45 --> Too few arguments to function App\Controllers\User::updatee(), 0 passed in C:\xampp\htdocs\vote\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\User->updatee()
+#1 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-02 22:36:11 --> Too few arguments to function App\Controllers\User::updatee(), 0 passed in C:\xampp\htdocs\vote\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\User->updatee()
+#1 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-02 22:37:14 --> Too few arguments to function App\Controllers\User::updatee(), 0 passed in C:\xampp\htdocs\vote\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\User->updatee()
+#1 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-02 22:40:08 --> Too few arguments to function App\Controllers\User::update(), 0 passed in C:\xampp\htdocs\vote\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\User->update()
+#1 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-02 22:46:47 --> Too few arguments to function App\Controllers\User::update(), 0 passed in C:\xampp\htdocs\vote\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\User->update()
+#1 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-02 22:48:33 --> Too few arguments to function App\Controllers\User::update(), 0 passed in C:\xampp\htdocs\vote\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\User->update()
+#1 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-02 22:48:58 --> Too few arguments to function App\Controllers\User::update(), 0 passed in C:\xampp\htdocs\vote\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\User->update()
+#1 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-02 22:51:37 --> Too few arguments to function App\Controllers\User::update(), 0 passed in C:\xampp\htdocs\vote\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\User->update()
+#1 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-02 22:52:57 --> Too few arguments to function App\Controllers\User::update(), 0 passed in C:\xampp\htdocs\vote\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\User->update()
+#1 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-02 22:53:07 --> Too few arguments to function App\Controllers\User::update(), 0 passed in C:\xampp\htdocs\vote\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\User->update()
+#1 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-02 22:57:42 --> Too few arguments to function App\Controllers\User::update(), 0 passed in C:\xampp\htdocs\vote\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\User->update()
+#1 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-02 23:00:09 --> Too few arguments to function App\Controllers\User::updatee(), 0 passed in C:\xampp\htdocs\vote\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\User->updatee()
+#1 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-02 23:00:54 --> Declaration of App\Models\U_model::update($id, $data) must be compatible with CodeIgniter\Model::update($id = NULL, $data = NULL): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-04-02 23:01:18 --> Too few arguments to function App\Controllers\User::updatee(), 0 passed in C:\xampp\htdocs\vote\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\User->updatee()
+#1 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-02 23:05:28 --> Too few arguments to function App\Controllers\User::updatee(), 0 passed in C:\xampp\htdocs\vote\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\User->updatee()
+#1 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-02 23:05:31 --> Too few arguments to function App\Controllers\User::updatee(), 0 passed in C:\xampp\htdocs\vote\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\User->updatee()
+#1 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-02 23:07:17 --> Too few arguments to function App\Controllers\User::updatee(), 0 passed in C:\xampp\htdocs\vote\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\User->updatee()
+#1 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-02 23:08:50 --> Too few arguments to function App\Controllers\User::updatee(), 0 passed in C:\xampp\htdocs\vote\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\User->updatee()
+#1 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-02 23:11:37 --> Too few arguments to function App\Controllers\User::updatee(), 0 passed in C:\xampp\htdocs\vote\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\User->updatee()
+#1 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-02 23:16:00 --> Too few arguments to function App\Controllers\User::updatee(), 0 passed in C:\xampp\htdocs\vote\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\User->updatee()
+#1 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-02 23:23:11 --> Trying to get property 'id_user' of non-object
+#0 C:\xampp\htdocs\vote\app\Views\edit_user.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 2, Array)
+#1 C:\xampp\htdocs\vote\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\vote\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\vote\system\Common.php(1089): CodeIgniter\View\View->render('edit_user', Array, true)
+#4 C:\xampp\htdocs\vote\app\Controllers\User.php(70): view('edit_user', Array)
+#5 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\User->edit('1')
+#6 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-04-02 23:24:11 --> Trying to get property 'id_user' of non-object
+#0 C:\xampp\htdocs\vote\app\Views\edit_user.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\vote\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\vote\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\vote\system\Common.php(1089): CodeIgniter\View\View->render('edit_user', Array, true)
+#4 C:\xampp\htdocs\vote\app\Controllers\User.php(70): view('edit_user', Array)
+#5 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\User->edit('1')
+#6 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-04-02 23:33:14 --> Data not found
+#0 C:\xampp\htdocs\vote\app\Models\U_model.php(42): App\Models\U_model->getById('user')
+#1 C:\xampp\htdocs\vote\app\Controllers\User.php(95): App\Models\U_model->updatee('user', Array, Array)
+#2 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\User->updatee()
+#3 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-04-02 23:51:38 --> Declaration of App\Models\U_model::update($id, $data, $photo) must be compatible with CodeIgniter\Model::update($id = NULL, $data = NULL): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-04-02 23:51:53 --> Cannot redeclare App\Models\U_model::updatee()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-04-02 23:51:58 --> Cannot redeclare App\Models\U_model::updatee()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

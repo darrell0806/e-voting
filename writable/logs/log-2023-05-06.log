@@ -1,0 +1,106 @@
+ERROR - 2023-05-06 01:16:56 --> Unknown column 'vote.user_id' in 'on clause'
+CRITICAL - 2023-05-06 01:16:56 --> Unknown column 'vote.user_id' in 'on clause'
+#0 C:\xampp\htdocs\vote\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `kandida...', 0)
+#1 C:\xampp\htdocs\vote\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `kandida...')
+#2 C:\xampp\htdocs\vote\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `kandida...')
+#3 C:\xampp\htdocs\vote\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `kandida...', Array, false)
+#4 C:\xampp\htdocs\vote\app\Models\K_model.php(107): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\vote\app\Controllers\Hasil.php(17): App\Models\K_model->getData()
+#6 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Hasil->index()
+#7 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hasil))
+#8 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-05-06 01:20:25 --> Unknown column 'hasil_vote.vote_id' in 'on clause'
+CRITICAL - 2023-05-06 01:20:25 --> Unknown column 'hasil_vote.vote_id' in 'on clause'
+#0 C:\xampp\htdocs\vote\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `kandida...', 0)
+#1 C:\xampp\htdocs\vote\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `kandida...')
+#2 C:\xampp\htdocs\vote\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `kandida...')
+#3 C:\xampp\htdocs\vote\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `kandida...', Array, false)
+#4 C:\xampp\htdocs\vote\app\Models\K_model.php(107): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\vote\app\Controllers\Hasil.php(17): App\Models\K_model->getData()
+#6 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Hasil->index()
+#7 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hasil))
+#8 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-05-06 01:23:58 --> Unknown column 'hasil_vote.status' in 'on clause'
+CRITICAL - 2023-05-06 01:23:58 --> Unknown column 'hasil_vote.status' in 'on clause'
+#0 C:\xampp\htdocs\vote\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `kandida...', 0)
+#1 C:\xampp\htdocs\vote\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `kandida...')
+#2 C:\xampp\htdocs\vote\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `kandida...')
+#3 C:\xampp\htdocs\vote\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `kandida...', Array, false)
+#4 C:\xampp\htdocs\vote\app\Models\K_model.php(105): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\vote\app\Controllers\Hasil.php(17): App\Models\K_model->getData()
+#6 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Hasil->index()
+#7 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hasil))
+#8 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-05-06 01:25:37 --> Unknown column 'vote.kandidat_id' in 'field list'
+CRITICAL - 2023-05-06 01:25:37 --> Unknown column 'vote.kandidat_id' in 'field list'
+#0 C:\xampp\htdocs\vote\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `kandida...', 0)
+#1 C:\xampp\htdocs\vote\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `kandida...')
+#2 C:\xampp\htdocs\vote\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `kandida...')
+#3 C:\xampp\htdocs\vote\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `kandida...', Array, false)
+#4 C:\xampp\htdocs\vote\app\Models\K_model.php(106): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\vote\app\Controllers\Hasil.php(17): App\Models\K_model->getData()
+#6 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Hasil->index()
+#7 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hasil))
+#8 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-05-06 03:15:31 --> Class 'App\Controllers\DateTime' not found
+#0 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Hasil->index()
+#1 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hasil))
+#2 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-06 03:15:52 --> Class 'App\Controllers\DateTime' not found
+#0 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Hasil->index()
+#1 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hasil))
+#2 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-06 03:16:33 --> Class 'App\Controllers\DateTime' not found
+#0 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Hasil->index()
+#1 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hasil))
+#2 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-06 03:16:42 --> Class 'App\Controllers\DateTime' not found
+#0 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Hasil->index()
+#1 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hasil))
+#2 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-06 03:18:00 --> Class 'App\Controllers\DateTime' not found
+#0 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Hasil->index()
+#1 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hasil))
+#2 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-06 03:22:39 --> Call to undefined function App\Controllers\Datetime()
+#0 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Hasil->index()
+#1 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hasil))
+#2 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-06 09:05:00 --> Too few arguments to function App\Models\K_model::getKandidatWithUsername(), 0 passed in C:\xampp\htdocs\vote\app\Controllers\Voting.php on line 20 and exactly 1 expected
+#0 C:\xampp\htdocs\vote\app\Controllers\Voting.php(20): App\Models\K_model->getKandidatWithUsername()
+#1 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Voting->index()
+#2 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voting))
+#3 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

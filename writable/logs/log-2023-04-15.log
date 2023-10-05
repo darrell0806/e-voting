@@ -1,0 +1,40 @@
+CRITICAL - 2023-04-15 00:32:09 --> Invalid file: guru/index.php
+#0 C:\xampp\htdocs\vote\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('guru/index.php')
+#1 C:\xampp\htdocs\vote\system\Common.php(1089): CodeIgniter\View\View->render('guru/index', Array, true)
+#2 C:\xampp\htdocs\vote\app\Controllers\ConGuru.php(30): view('guru/index', Array)
+#3 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\ConGuru->index()
+#4 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConGuru))
+#5 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-04-15 00:33:25 --> Invalid file: guru/index.php
+#0 C:\xampp\htdocs\vote\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('guru/index.php')
+#1 C:\xampp\htdocs\vote\system\Common.php(1089): CodeIgniter\View\View->render('guru/index', Array, true)
+#2 C:\xampp\htdocs\vote\app\Controllers\ConGuru.php(30): view('guru/index', Array)
+#3 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\ConGuru->index()
+#4 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConGuru))
+#5 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-04-15 00:33:58 --> Invalid file: guru/index.php
+#0 C:\xampp\htdocs\vote\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('guru/index.php')
+#1 C:\xampp\htdocs\vote\system\Common.php(1089): CodeIgniter\View\View->render('guru/index', Array, true)
+#2 C:\xampp\htdocs\vote\app\Controllers\ConGuru.php(30): view('guru/index', Array)
+#3 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\ConGuru->index()
+#4 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConGuru))
+#5 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-04-15 00:34:19 --> Invalid file: /guru/index.php
+#0 C:\xampp\htdocs\vote\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/guru/index.php')
+#1 C:\xampp\htdocs\vote\system\Common.php(1089): CodeIgniter\View\View->render('/guru/index', Array, true)
+#2 C:\xampp\htdocs\vote\app\Controllers\ConGuru.php(30): view('/guru/index', Array)
+#3 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\ConGuru->index()
+#4 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConGuru))
+#5 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

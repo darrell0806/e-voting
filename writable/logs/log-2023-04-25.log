@@ -1,0 +1,88 @@
+CRITICAL - 2023-04-25 10:51:36 --> Invalid file: sudah_memilih.php
+#0 C:\xampp\htdocs\vote\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sudah_memilih.p...')
+#1 C:\xampp\htdocs\vote\system\Common.php(1089): CodeIgniter\View\View->render('sudah_memilih', Array, true)
+#2 C:\xampp\htdocs\vote\app\Controllers\Voting.php(63): view('sudah_memilih')
+#3 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Voting->s_memilih()
+#4 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voting))
+#5 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-04-25 21:09:17 --> Invalid file: belum_selesai.php
+#0 C:\xampp\htdocs\vote\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('belum_selesai.p...')
+#1 C:\xampp\htdocs\vote\system\Common.php(1089): CodeIgniter\View\View->render('belum_selesai', Array, true)
+#2 C:\xampp\htdocs\vote\app\Controllers\Hasil.php(23): view('belum_selesai')
+#3 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Hasil->index()
+#4 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hasil))
+#5 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2023-04-25 21:28:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`
+INNER JOIN `user` as `ketua` ON `ketua`.`id_user` = `kandidat`.`ketua`
+INNE...' at line 4
+CRITICAL - 2023-04-25 21:28:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`
+INNER JOIN `user` as `ketua` ON `ketua`.`id_user` = `kandidat`.`ketua`
+INNE...' at line 4
+#0 C:\xampp\htdocs\vote\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `kandida...', 0)
+#1 C:\xampp\htdocs\vote\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `kandida...')
+#2 C:\xampp\htdocs\vote\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `kandida...')
+#3 C:\xampp\htdocs\vote\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `kandida...', Array, false)
+#4 C:\xampp\htdocs\vote\app\Models\K_model.php(109): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\vote\app\Controllers\Hasil.php(16): App\Models\K_model->getData()
+#6 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Hasil->index()
+#7 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hasil))
+#8 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-04-25 21:30:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`
+INNER JOIN `user` as `ketua` ON `ketua`.`id_user` = `kandidat`.`ketua`
+INNE...' at line 4
+CRITICAL - 2023-04-25 21:30:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`
+INNER JOIN `user` as `ketua` ON `ketua`.`id_user` = `kandidat`.`ketua`
+INNE...' at line 4
+#0 C:\xampp\htdocs\vote\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `kandida...', 0)
+#1 C:\xampp\htdocs\vote\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `kandida...')
+#2 C:\xampp\htdocs\vote\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `kandida...')
+#3 C:\xampp\htdocs\vote\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `kandida...', Array, false)
+#4 C:\xampp\htdocs\vote\app\Models\K_model.php(109): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\vote\app\Controllers\Hasil.php(16): App\Models\K_model->getData()
+#6 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Hasil->index()
+#7 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hasil))
+#8 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-04-25 21:33:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`
+INNER JOIN `user` as `ketua` ON `ketua`.`id_user` = `kandidat`.`ketua`
+INNE...' at line 4
+CRITICAL - 2023-04-25 21:33:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`
+INNER JOIN `user` as `ketua` ON `ketua`.`id_user` = `kandidat`.`ketua`
+INNE...' at line 4
+#0 C:\xampp\htdocs\vote\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `kandida...', 0)
+#1 C:\xampp\htdocs\vote\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `kandida...')
+#2 C:\xampp\htdocs\vote\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `kandida...')
+#3 C:\xampp\htdocs\vote\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `kandida...', Array, false)
+#4 C:\xampp\htdocs\vote\app\Models\K_model.php(109): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\vote\app\Controllers\Hasil.php(16): App\Models\K_model->getData()
+#6 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Hasil->index()
+#7 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hasil))
+#8 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-04-25 21:47:11 --> Unknown column 'CASE WHEN vote.p_mulai <= "2023-04-25 21:47:11" AND vote.p_selesai >= "2023-04-25 21:47:11" THEN "Aktif" ELSE "Tidak-Aktif" END' in 'field list'
+CRITICAL - 2023-04-25 21:47:11 --> Unknown column 'CASE WHEN vote.p_mulai <= "2023-04-25 21:47:11" AND vote.p_selesai >= "2023-04-25 21:47:11" THEN "Aktif" ELSE "Tidak-Aktif" END' in 'field list'
+#0 C:\xampp\htdocs\vote\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `vote`.*...', 0)
+#1 C:\xampp\htdocs\vote\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `vote`.*...')
+#2 C:\xampp\htdocs\vote\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `vote`.*...')
+#3 C:\xampp\htdocs\vote\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `vote`.*...', Array, false)
+#4 C:\xampp\htdocs\vote\app\Models\V_model.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\vote\app\Controllers\Vote.php(14): App\Models\V_model->getPeriodesWithStatus()
+#6 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Vote->index()
+#7 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vote))
+#8 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}

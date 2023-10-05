@@ -1,0 +1,66 @@
+CRITICAL - 2023-05-03 02:12:00 --> Too few arguments to function App\Models\V_model::getStatusAktif(), 0 passed in C:\xampp\htdocs\vote\app\Controllers\Hasil.php on line 17 and exactly 1 expected
+#0 C:\xampp\htdocs\vote\app\Controllers\Hasil.php(17): App\Models\V_model->getStatusAktif()
+#1 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Hasil->index()
+#2 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hasil))
+#3 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-03 02:14:20 --> Class 'App\Controllers\V_model' not found
+#0 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Kandidat->index()
+#1 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kandidat))
+#2 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-03 02:14:34 --> Class 'App\Controllers\V_model' not found
+#0 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Kandidat->index()
+#1 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kandidat))
+#2 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-03 08:25:28 --> Too few arguments to function App\Models\V_model::getPSelesai(), 0 passed in C:\xampp\htdocs\vote\app\Controllers\Hasil.php on line 22 and exactly 1 expected
+#0 C:\xampp\htdocs\vote\app\Controllers\Hasil.php(22): App\Models\V_model->getPSelesai()
+#1 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Hasil->index()
+#2 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hasil))
+#3 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-03 09:00:03 --> Call to undefined method App\Models\K_model::getPSelesai
+#0 C:\xampp\htdocs\vote\app\Controllers\Hasil.php(114): CodeIgniter\Model->__call('getPSelesai', Array)
+#1 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Hasil->diagram()
+#2 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hasil))
+#3 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-03 09:00:37 --> Call to undefined method App\Models\K_model::getPSelesai
+#0 C:\xampp\htdocs\vote\app\Controllers\Hasil.php(114): CodeIgniter\Model->__call('getPSelesai', Array)
+#1 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Hasil->diagram()
+#2 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hasil))
+#3 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-03 09:00:53 --> Call to undefined method App\Models\K_model::getPSelesai
+#0 C:\xampp\htdocs\vote\app\Controllers\Hasil.php(114): CodeIgniter\Model->__call('getPSelesai', Array)
+#1 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Hasil->diagram()
+#2 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hasil))
+#3 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-03 09:02:00 --> Undefined variable: k
+#0 C:\xampp\htdocs\vote\app\Views\hasil_vote.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\vote\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\vote\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\vote\system\Common.php(1089): CodeIgniter\View\View->render('hasil_vote', Array, true)
+#4 C:\xampp\htdocs\vote\app\Controllers\Hasil.php(122): view('hasil_vote')
+#5 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Hasil->diagram()
+#6 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hasil))
+#7 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

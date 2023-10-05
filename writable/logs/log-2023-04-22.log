@@ -1,0 +1,297 @@
+ERROR - 2023-04-22 02:38:32 --> Unknown column 'status' in 'where clause'
+CRITICAL - 2023-04-22 02:38:32 --> Unknown column 'status' in 'where clause'
+#0 C:\xampp\htdocs\vote\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\vote\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\vote\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\vote\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\vote\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\vote\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\vote\app\Controllers\Voting.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Voting->index()
+#8 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voting))
+#9 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-04-22 02:40:36 --> Class 'App\Controllers\V_model' not found
+#0 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Voting->index()
+#1 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voting))
+#2 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2023-04-22 02:40:55 --> Unknown column 'status' in 'where clause'
+CRITICAL - 2023-04-22 02:40:55 --> Unknown column 'status' in 'where clause'
+#0 C:\xampp\htdocs\vote\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\vote\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\vote\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\vote\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\vote\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\vote\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\vote\app\Controllers\Voting.php(19): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Voting->index()
+#8 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voting))
+#9 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-04-22 02:42:22 --> Undefined index: nama
+#0 C:\xampp\htdocs\vote\app\Views\voting.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 4, Array)
+#1 C:\xampp\htdocs\vote\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\vote\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\vote\system\Common.php(1089): CodeIgniter\View\View->render('voting', Array, true)
+#4 C:\xampp\htdocs\vote\app\Controllers\Voting.php(22): view('voting', Array)
+#5 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Voting->index()
+#6 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voting))
+#7 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-04-22 02:43:30 --> Undefined index: nama
+#0 C:\xampp\htdocs\vote\app\Views\voting.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 4, Array)
+#1 C:\xampp\htdocs\vote\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\vote\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\vote\system\Common.php(1089): CodeIgniter\View\View->render('voting', Array, true)
+#4 C:\xampp\htdocs\vote\app\Controllers\Voting.php(22): view('voting', Array)
+#5 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Voting->index()
+#6 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voting))
+#7 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-04-22 02:46:37 --> Undefined index: ketua_username
+#0 C:\xampp\htdocs\vote\app\Views\voting.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\vote\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\vote\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\vote\system\Common.php(1089): CodeIgniter\View\View->render('voting', Array, true)
+#4 C:\xampp\htdocs\vote\app\Controllers\Voting.php(22): view('voting', Array)
+#5 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Voting->index()
+#6 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voting))
+#7 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-04-22 03:17:30 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\vote\app\Controllers\Voting.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Voting->index()
+#2 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voting))
+#3 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-04-22 03:39:21 --> syntax error, unexpected '<', expecting end of file
+#0 C:\xampp\htdocs\vote\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\vote\system\Common.php(1089): CodeIgniter\View\View->render('voting', Array, true)
+#2 C:\xampp\htdocs\vote\app\Controllers\Voting.php(20): view('voting', Array)
+#3 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Voting->index()
+#4 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voting))
+#5 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-04-22 10:02:04 --> Class 'App\Controllers\H_model' not found
+#0 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Voting->vote()
+#1 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voting))
+#2 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-22 10:02:24 --> Declaration of App\Models\H_model::save($data) must be compatible with CodeIgniter\BaseModel::save($data): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2023-04-22 10:02:46 --> Unknown column 'id_user' in 'where clause'
+CRITICAL - 2023-04-22 10:02:46 --> Unknown column 'id_user' in 'where clause'
+#0 C:\xampp\htdocs\vote\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\vote\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\vote\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\vote\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\vote\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\vote\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\vote\app\Controllers\Voting.php(37): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Voting->vote()
+#8 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voting))
+#9 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2023-04-22 10:03:20 --> Column 'user_id' cannot be null
+CRITICAL - 2023-04-22 10:03:20 --> Column 'user_id' cannot be null
+#0 C:\xampp\htdocs\vote\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ha...', 0)
+#1 C:\xampp\htdocs\vote\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ha...')
+#2 C:\xampp\htdocs\vote\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ha...')
+#3 C:\xampp\htdocs\vote\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ha...', Array, false)
+#4 C:\xampp\htdocs\vote\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\vote\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\vote\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\vote\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\vote\app\Models\H_model.php(16): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\vote\app\Controllers\Voting.php(45): App\Models\H_model->savee(Array)
+#10 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Voting->vote()
+#11 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voting))
+#12 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+ERROR - 2023-04-22 10:04:42 --> Unknown column 'id_user' in 'where clause'
+CRITICAL - 2023-04-22 10:04:42 --> Unknown column 'id_user' in 'where clause'
+#0 C:\xampp\htdocs\vote\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\vote\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\vote\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\vote\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\vote\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\vote\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\vote\app\Controllers\Voting.php(37): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Voting->vote()
+#8 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voting))
+#9 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2023-04-22 10:06:18 --> Column 'user_id' cannot be null
+CRITICAL - 2023-04-22 10:06:18 --> Column 'user_id' cannot be null
+#0 C:\xampp\htdocs\vote\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ha...', 0)
+#1 C:\xampp\htdocs\vote\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ha...')
+#2 C:\xampp\htdocs\vote\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ha...')
+#3 C:\xampp\htdocs\vote\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ha...', Array, false)
+#4 C:\xampp\htdocs\vote\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\vote\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\vote\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\vote\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\vote\app\Models\H_model.php(16): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\vote\app\Controllers\Voting.php(45): App\Models\H_model->savee(Array)
+#10 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Voting->vote()
+#11 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voting))
+#12 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+ERROR - 2023-04-22 10:09:30 --> Column 'user_id' cannot be null
+CRITICAL - 2023-04-22 10:09:30 --> Column 'user_id' cannot be null
+#0 C:\xampp\htdocs\vote\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ha...', 0)
+#1 C:\xampp\htdocs\vote\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ha...')
+#2 C:\xampp\htdocs\vote\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ha...')
+#3 C:\xampp\htdocs\vote\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ha...', Array, false)
+#4 C:\xampp\htdocs\vote\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\vote\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\vote\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\vote\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\vote\app\Models\H_model.php(16): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\vote\app\Controllers\Voting.php(41): App\Models\H_model->savee(Array)
+#10 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Voting->vote()
+#11 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voting))
+#12 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2023-04-22 10:13:42 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\vote\app\Controllers\Voting.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Voting->index()
+#2 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voting))
+#3 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-04-22 10:13:53 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\vote\app\Controllers\Voting.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Voting->index()
+#2 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voting))
+#3 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-04-22 10:14:28 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\vote\app\Controllers\Voting.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Voting->index()
+#2 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voting))
+#3 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-04-22 10:17:17 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\vote\app\Controllers\Voting.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Voting->index()
+#2 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voting))
+#3 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-04-22 10:17:23 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\vote\app\Controllers\Voting.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Voting->index()
+#2 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voting))
+#3 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-04-22 10:20:28 --> Column 'user_id' cannot be null
+CRITICAL - 2023-04-22 10:20:28 --> Column 'user_id' cannot be null
+#0 C:\xampp\htdocs\vote\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ha...', 0)
+#1 C:\xampp\htdocs\vote\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ha...')
+#2 C:\xampp\htdocs\vote\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ha...')
+#3 C:\xampp\htdocs\vote\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ha...', Array, false)
+#4 C:\xampp\htdocs\vote\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\vote\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\vote\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\vote\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\vote\app\Models\H_model.php(16): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\vote\app\Controllers\Voting.php(47): App\Models\H_model->savee(Array)
+#10 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Voting->vote()
+#11 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voting))
+#12 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+ERROR - 2023-04-22 11:16:05 --> Unknown column 'kandidat.id_kandidat' in 'field list'
+CRITICAL - 2023-04-22 11:16:05 --> Unknown column 'kandidat.id_kandidat' in 'field list'
+#0 C:\xampp\htdocs\vote\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `kandida...', 0)
+#1 C:\xampp\htdocs\vote\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `kandida...')
+#2 C:\xampp\htdocs\vote\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `kandida...')
+#3 C:\xampp\htdocs\vote\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `kandida...', Array, false)
+#4 C:\xampp\htdocs\vote\app\Models\K_model.php(103): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\vote\app\Controllers\Hasil.php(13): App\Models\K_model->getData()
+#6 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Hasil->index()
+#7 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hasil))
+#8 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-04-22 11:16:27 --> Unknown column 'kandidat.wakil_ketua' in 'field list'
+CRITICAL - 2023-04-22 11:16:27 --> Unknown column 'kandidat.wakil_ketua' in 'field list'
+#0 C:\xampp\htdocs\vote\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `kandida...', 0)
+#1 C:\xampp\htdocs\vote\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `kandida...')
+#2 C:\xampp\htdocs\vote\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `kandida...')
+#3 C:\xampp\htdocs\vote\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `kandida...', Array, false)
+#4 C:\xampp\htdocs\vote\app\Models\K_model.php(103): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\vote\app\Controllers\Hasil.php(13): App\Models\K_model->getData()
+#6 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Hasil->index()
+#7 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hasil))
+#8 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-04-22 11:16:37 --> Unknown column 'hasil_vote.id_user' in 'field list'
+CRITICAL - 2023-04-22 11:16:37 --> Unknown column 'hasil_vote.id_user' in 'field list'
+#0 C:\xampp\htdocs\vote\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `kandida...', 0)
+#1 C:\xampp\htdocs\vote\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `kandida...')
+#2 C:\xampp\htdocs\vote\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `kandida...')
+#3 C:\xampp\htdocs\vote\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `kandida...', Array, false)
+#4 C:\xampp\htdocs\vote\app\Models\K_model.php(103): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\vote\app\Controllers\Hasil.php(13): App\Models\K_model->getData()
+#6 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Hasil->index()
+#7 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hasil))
+#8 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-04-22 11:16:57 --> Undefined index: wakil_ketua
+#0 C:\xampp\htdocs\vote\app\Views\hasil_vote.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\vote\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\vote\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\vote\system\Common.php(1089): CodeIgniter\View\View->render('hasil_vote', Array, true)
+#4 C:\xampp\htdocs\vote\app\Controllers\Hasil.php(15): view('hasil_vote', Array)
+#5 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Hasil->index()
+#6 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hasil))
+#7 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

@@ -1,0 +1,10 @@
+CRITICAL - 2023-04-11 23:30:40 --> File "C:\xampp\htdocs\vote\writable\images/" does not exist.
+#0 C:\xampp\htdocs\vote\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(135): PhpOffice\PhpSpreadsheet\Shared\File::assertFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\vote\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(106): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile('C:\\xampp\\htdocs...', NULL)
+#2 C:\xampp\htdocs\vote\app\Controllers\User.php(107): PhpOffice\PhpSpreadsheet\IOFactory::load('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\User->excel()
+#4 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

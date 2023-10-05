@@ -1,0 +1,57 @@
+CRITICAL - 2023-04-13 02:28:21 --> Undefined variable: a
+#0 C:\xampp\htdocs\vote\app\Views\tambah_kandidat.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 69, Array)
+#1 C:\xampp\htdocs\vote\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\vote\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\vote\system\Common.php(1089): CodeIgniter\View\View->render('tambah_kandidat', Array, true)
+#4 C:\xampp\htdocs\vote\app\Controllers\Kandidat.php(16): view('tambah_kandidat', Array)
+#5 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Kandidat->index()
+#6 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kandidat))
+#7 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-04-13 02:53:25 --> Undefined variable: a
+#0 C:\xampp\htdocs\vote\app\Views\tambah_kandidat.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 69, Array)
+#1 C:\xampp\htdocs\vote\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\vote\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\vote\system\Common.php(1089): CodeIgniter\View\View->render('tambah_kandidat', Array, true)
+#4 C:\xampp\htdocs\vote\app\Controllers\Kandidat.php(16): view('tambah_kandidat', Array)
+#5 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Kandidat->index()
+#6 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kandidat))
+#7 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-04-13 02:53:47 --> Undefined variable: ketua_osis
+#0 C:\xampp\htdocs\vote\app\Views\tambah_kandidat.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 66, Array)
+#1 C:\xampp\htdocs\vote\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\vote\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\vote\system\Common.php(1089): CodeIgniter\View\View->render('tambah_kandidat', Array, true)
+#4 C:\xampp\htdocs\vote\app\Controllers\Kandidat.php(16): view('tambah_kandidat', Array)
+#5 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Kandidat->index()
+#6 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kandidat))
+#7 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-04-13 02:54:29 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\vote\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\vote\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\vote\system\Common.php(1089): CodeIgniter\View\View->render('tambah_kandidat', Array, true)
+#3 C:\xampp\htdocs\vote\app\Controllers\Kandidat.php(16): view('tambah_kandidat', Array)
+#4 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Kandidat->index()
+#5 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kandidat))
+#6 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-04-13 04:00:46 --> Invalid file: kandidat.php
+#0 C:\xampp\htdocs\vote\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kandidat.php')
+#1 C:\xampp\htdocs\vote\system\Common.php(1089): CodeIgniter\View\View->render('kandidat', Array, true)
+#2 C:\xampp\htdocs\vote\app\Controllers\Kandidat.php(17): view('kandidat', Array)
+#3 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\Kandidat->index()
+#4 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kandidat))
+#5 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

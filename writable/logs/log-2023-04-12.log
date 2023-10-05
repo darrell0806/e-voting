@@ -1,0 +1,94 @@
+CRITICAL - 2023-04-12 00:09:31 --> Declaration of App\Models\U_model::update($id, $data) must be compatible with CodeIgniter\Model::update($id = NULL, $data = NULL): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-04-12 01:26:22 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\User->import()
+#1 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-12 01:46:48 --> Class 'App\Controllers\UserModel' not found
+#0 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\User->import()
+#1 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-12 01:47:13 --> Invalid file: excel/index.php
+#0 C:\xampp\htdocs\vote\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('excel/index.php')
+#1 C:\xampp\htdocs\vote\system\Common.php(1089): CodeIgniter\View\View->render('excel/index', Array, true)
+#2 C:\xampp\htdocs\vote\app\Controllers\User.php(143): view('excel/index', Array)
+#3 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\User->import()
+#4 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-04-12 01:47:27 --> Invalid file: User/index.php
+#0 C:\xampp\htdocs\vote\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('User/index.php')
+#1 C:\xampp\htdocs\vote\system\Common.php(1089): CodeIgniter\View\View->render('User/index', Array, true)
+#2 C:\xampp\htdocs\vote\app\Controllers\User.php(143): view('User/index', Array)
+#3 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\User->import()
+#4 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-04-12 01:47:47 --> Invalid file: /User/index/.php
+#0 C:\xampp\htdocs\vote\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/User/index/.ph...')
+#1 C:\xampp\htdocs\vote\system\Common.php(1089): CodeIgniter\View\View->render('/User/index/', Array, true)
+#2 C:\xampp\htdocs\vote\app\Controllers\User.php(143): view('/User/index/', Array)
+#3 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\User->import()
+#4 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-04-12 01:48:26 --> Undefined variable: a
+#0 C:\xampp\htdocs\vote\app\Views\v_user.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51, Array)
+#1 C:\xampp\htdocs\vote\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\vote\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\vote\system\Common.php(1089): CodeIgniter\View\View->render('/v_user', Array, true)
+#4 C:\xampp\htdocs\vote\app\Controllers\User.php(143): view('/v_user', Array)
+#5 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\User->import()
+#6 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-04-12 01:50:56 --> Undefined variable: model
+#0 C:\xampp\htdocs\vote\app\Controllers\User.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 111, Array)
+#1 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\User->import()
+#2 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-04-12 01:51:29 --> Call to undefined method App\Models\U_model::join2
+#0 C:\xampp\htdocs\vote\app\Controllers\User.php(112): CodeIgniter\Model->__call('join2', Array)
+#1 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\User->import()
+#2 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-04-12 01:52:45 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, array given, called in C:\xampp\htdocs\vote\app\Controllers\User.php on line 144
+#0 C:\xampp\htdocs\vote\app\Controllers\User.php(144): CodeIgniter\HTTP\RedirectResponse->to('/User/index/', Array)
+#1 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\User->import()
+#2 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-04-12 02:29:59 --> Undefined property: App\Controllers\User::$model
+#0 C:\xampp\htdocs\vote\app\Controllers\User.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 135, Array)
+#1 C:\xampp\htdocs\vote\system\CodeIgniter.php(832): App\Controllers\User->import()
+#2 C:\xampp\htdocs\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\vote\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-04-12 02:31:38 --> Declaration of App\Models\U_model::update($id, $data) must be compatible with CodeIgniter\Model::update($id = NULL, $data = NULL): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
