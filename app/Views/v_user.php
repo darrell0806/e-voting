@@ -51,6 +51,7 @@
                                     <tr>
                                         <th>No</th>
                                         <th>Foto</th>
+                                        <th>Nama</th>
                                         <th>Username</th>
                                         <th>Level</th>
                                         <th>Action</th>
@@ -66,6 +67,7 @@
                                         <td>
                                             <img src="<?=base_url('images/'.$b->foto)?>" height="100px">
                                         </td>
+                                        <td><?php echo $b->nama?> </td>
                                         <td><?php echo $b->username?> </td>
                                         <td><?php echo $b->nama_level?> </td>
                                         <td>
@@ -141,6 +143,7 @@
                                     <tr>
                                         <th>No</th>
                                         <th>Foto</th>
+                                        <th>Nama</th>
                                         <th>Username</th>
                                         <th>Level</th>
                                         <th>Action</th>
@@ -156,6 +159,7 @@
                                         <td>
                                             <img src="<?=base_url('images/'.$b->foto)?>" height="100px">
                                         </td>
+                                        <td><?php echo $b->nama?> </td>
                                         <td><?php echo $b->username?> </td>
                                         <td><?php echo $b->nama_level?> </td>
                                         <td>

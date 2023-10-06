@@ -1,0 +1,17 @@
+CRITICAL - 2023-10-06 02:56:53 --> Call to undefined function App\Models\public_path()
+#0 C:\xampp\htdocs\e-voting\app\Controllers\User.php(139): App\Models\U_model->deletee('91')
+#1 C:\xampp\htdocs\e-voting\system\CodeIgniter.php(832): App\Controllers\User->delete('91')
+#2 C:\xampp\htdocs\e-voting\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\e-voting\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-voting\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-voting\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-06 02:58:18 --> Trying to get property 'foto' of non-object
+#0 C:\xampp\htdocs\e-voting\app\Models\U_model.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 68, Array)
+#1 C:\xampp\htdocs\e-voting\app\Controllers\User.php(139): App\Models\U_model->deletee('91')
+#2 C:\xampp\htdocs\e-voting\system\CodeIgniter.php(832): App\Controllers\User->delete('91')
+#3 C:\xampp\htdocs\e-voting\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\e-voting\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\e-voting\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\e-voting\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}

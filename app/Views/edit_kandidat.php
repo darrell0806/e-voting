@@ -66,7 +66,7 @@
                                                 if ($c->level == 4 && $c->deleted_at == null) {
                                                     ?>
                                                     <option value ="<?= $c->id_user?>" <?php if ($a['ketua'] == $c->id_user) echo 'selected' ?>>
-                                                        <?php echo $c->username?>
+                                                        <?php echo $c->nama?>
                                                     </option>
                                                 <?php }
                                             } ?>
@@ -89,7 +89,7 @@
                                                 if ($c->level == 4 && $c->deleted_at == null) {
                                                     ?>
                                                     <option value ="<?= $c->id_user?>" <?php if ($a['wakil'] == $c->id_user) echo 'selected' ?>>
-                                                        <?php echo $c->username?>
+                                                        <?php echo $c->nama?>
                                                     </option>
                                                 <?php }
                                             } ?>
@@ -112,7 +112,7 @@
                                                     if ($c->level == 4 && $c->deleted_at == null) {
                                                         ?>
                                                         <option value="<?= $c->id_user ?>" <?php if ($a['wakil2'] == $c->id_user) echo 'selected' ?>>
-                                                            <?= $c->username ?>
+                                                            <?= $c->nama ?>
                                                         </option>
                                                     <?php }
                                                 } ?>

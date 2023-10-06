@@ -165,9 +165,10 @@ public function import()
     for ($row = 2; $row <= $highestRow; $row++) {
 
         $data = [
-            'username' => $sheet->getCellByColumnAndRow(1, $row)->getValue(),
-            'password' => md5($sheet->getCellByColumnAndRow(2, $row)->getValue()),
-            'level' => $sheet->getCellByColumnAndRow(3, $row)->getValue(),
+            'nama' => $sheet->getCellByColumnAndRow(1, $row)->getValue(),
+            'username' => $sheet->getCellByColumnAndRow(2, $row)->getValue(),
+            'password' => md5($sheet->getCellByColumnAndRow(3, $row)->getValue()),
+            'level' => $sheet->getCellByColumnAndRow(4, $row)->getValue(),
             'foto' => 'tidaktahu.png'
         ];
 
@@ -216,7 +217,7 @@ public function store()
           
             $model->hapus('user', $where);
         
-            return redirect()->to('/User');
+            return redirect()->to('/User/store');
         }else{
             return redirect()->to('/Home');
 

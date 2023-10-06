@@ -8,7 +8,7 @@ class U_model extends Model
 {
     protected $table = 'user';
     protected $primaryKey = 'id_user';
-    protected $allowedFields = ['foto', 'username', 'password', 'level'];
+    protected $allowedFields = ['foto','nama', 'username', 'password', 'level'];
     protected $useTimestamps = true;
     protected $useSoftDeletes = true;
 

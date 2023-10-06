@@ -52,7 +52,7 @@
                                                         <option>-PILIH-</option>
                                                         <?php foreach ($a as $b) {
                                                             if ($b->level == 4 && $b->deleted_at == null) { ?>
-                                                                <option value="<?= $b->id_user ?>"><?= $b->username ?></option>
+                                                                <option value="<?= $b->id_user ?>"><?= $b->nama ?></option>
                                                         <?php }
                                                         } ?>
                                                     </select>
@@ -71,7 +71,7 @@
                                                         <option>-PILIH-</option>
                                                         <?php foreach ($a as $b) {
                                                             if ($b->level == 4  && $b->deleted_at == null) { ?>
-                                                                <option value="<?= $b->id_user ?>"><?= $b->username ?></option>
+                                                                <option value="<?= $b->id_user ?>"><?= $b->nama ?></option>
                                                         <?php }
                                                         } ?>
                                                     </select>
@@ -90,7 +90,7 @@
                                                         <option>-PILIH-</option>
                                                         <?php foreach ($a as $b) {
                                                             if ($b->level == 4  && $b->deleted_at == null) { ?>
-                                                                <option value="<?= $b->id_user ?>"><?= $b->username ?></option>
+                                                                <option value="<?= $b->id_user ?>"><?= $b->nama ?></option>
                                                         <?php }
                                                         } ?>
                                                     </select>

@@ -52,7 +52,7 @@ class K_model extends Model
     public function join2($table1, $table2, $on)
     {
         return $this->db->table($table1)
-            ->select($table1 . '.*, ketua.username as ketua_username, wakil.username as wakil_username, wakil2.username as wakil2_username')
+            ->select($table1 . '.*, ketua.nama as ketua_username, wakil.nama as wakil_username, wakil2.nama as wakil2_username')
             ->join($table2 . ' as ketua', 'ketua.id_user = ' . $table1 . '.ketua', 'left')
             ->join($table2 . ' as wakil', 'wakil.id_user = ' . $table1 . '.wakil', 'left')
             ->join($table2 . ' as wakil2', 'wakil2.id_user = ' . $table1 . '.wakil2', 'left')
@@ -63,7 +63,7 @@ class K_model extends Model
     public function joinla($table1, $table2, $on)
     {
         return $this->db->table($table1)
-            ->select($table1 . '.*, ketua.username as ketua_username, wakil.username as wakil_username, wakil2.username as wakil2_username')
+            ->select($table1 . '.*, ketua.nama as ketua_username, wakil.nama as wakil_username, wakil2.nama as wakil2_username')
             ->join($table2 . ' as ketua', 'ketua.id_user = ' . $table1 . '.ketua', 'left')
             ->join($table2 . ' as wakil', 'wakil.id_user = ' . $table1 . '.wakil', 'left')
             ->join($table2 . ' as wakil2', 'wakil2.id_user = ' . $table1 . '.wakil2', 'left')
@@ -83,7 +83,7 @@ public function getById($id)
     public function getKandidatByPeriode($periode_id)
     {
         $builder = $this->db->table('kandidat');
-        $builder->select('kandidat.*, ketua.username as ketua_username, wakil.username as wakil_username, wakil2.username as wakil2_username');
+        $builder->select('kandidat.*, ketua.nama as ketua_username, wakil.nama as wakil_username, wakil2.nama as wakil2_username');
         $builder->join('user as ketua', 'ketua.id_user = kandidat.ketua', 'left');
         $builder->join('user as wakil', 'wakil.id_user = kandidat.wakil', 'left');
         $builder->join('user as wakil2', 'wakil2.id_user = kandidat.wakil2', 'left');
@@ -95,7 +95,7 @@ public function getById($id)
     public function getKandidatWithUsername($periode_id)
     {
         $builder = $this->db->table('kandidat');
-        $builder->select('kandidat.*, ketua.username as ketua_username, wakil.username as wakil_username, wakil2.username as wakil2_username');
+        $builder->select('kandidat.*, ketua.nama as ketua_username, wakil.nama as wakil_username, wakil2.nama as wakil2_username');
         $builder->join('user as ketua', 'ketua.id_user = kandidat.ketua', 'left');
         $builder->join('user as wakil', 'wakil.id_user = kandidat.wakil', 'left');
         $builder->join('user as wakil2', 'wakil2.id_user = kandidat.wakil2', 'left');
@@ -107,7 +107,7 @@ public function getById($id)
     public function getAllKandidatWithUsername()
     {
         $builder = $this->db->table('kandidat');
-        $builder->select('kandidat.*, ketua.username as ketua_username, wakil.username as wakil_username, wakil2.username as wakil2_username');
+        $builder->select('kandidat.*, ketua.nama as ketua_username, wakil.nama as wakil_username, wakil2.nama as wakil2_username');
         $builder->join('user as ketua', 'ketua.id_user = kandidat.ketua', 'left');
         $builder->join('user as wakil', 'wakil.id_user = kandidat.wakil', 'left');
         $builder->join('user as wakil2', 'wakil2.id_user = kandidat.wakil2', 'left');
@@ -119,7 +119,7 @@ public function getById($id)
     public function getData($level)
     {
         $query = $this->db->table($this->table)
-            ->select('kandidat.id, kandidat.ketua, ketua.username as ketua_username, kandidat.wakil, wakil.username as wakil_username, kandidat.wakil2, wakil2.username as wakil2_username, kandidat.visimisi, COUNT(hasil_vote.kandidat_id) as total_vote')
+            ->select('kandidat.id, kandidat.ketua, ketua.nama as ketua_username, kandidat.wakil, wakil.nama as wakil_username, kandidat.wakil2, wakil2.nama as wakil2_username, kandidat.visimisi, COUNT(hasil_vote.kandidat_id) as total_vote')
             ->join('hasil_vote', 'hasil_vote.kandidat_id = kandidat.id', 'left')
             ->join('user as ketua', 'ketua.id_user = kandidat.ketua', 'inner')
             ->join('user as wakil', 'wakil.id_user = kandidat.wakil', 'inner')
@@ -139,7 +139,7 @@ public function getById($id)
    public function getDataa($level)
 {
     $query = $this->db->table($this->table)
-        ->select('kandidat.id, kandidat.ketua, ketua.username as ketua_username, kandidat.wakil, wakil.username as wakil_username, kandidat.wakil2, wakil2.username as wakil2_username, kandidat.visimisi, COUNT(hasil_vote.kandidat_id) as total_vote')
+        ->select('kandidat.id, kandidat.ketua, ketua.nama as ketua_username, kandidat.wakil, wakil.nama as wakil_username, kandidat.wakil2, wakil2.nama as wakil2_username, kandidat.visimisi, COUNT(hasil_vote.kandidat_id) as total_vote')
         ->join('hasil_vote', 'hasil_vote.kandidat_id = kandidat.id', 'left')
         ->join('user as ketua', 'ketua.id_user = kandidat.ketua', 'inner')
         ->join('user as wakil', 'wakil.id_user = kandidat.wakil', 'inner')

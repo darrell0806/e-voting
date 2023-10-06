@@ -25,6 +25,7 @@ class Home extends BaseController
 			session()->set('id', $cek['id_user']);
 			session()->set('username', $cek['username']);
 			session()->set('level', $cek['level']);
+			session()->set('nama', $cek['nama']);
 			return redirect()->to('Home/dashboard');
 		}else {
 			return redirect()->to('/Home');
@@ -40,7 +41,10 @@ class Home extends BaseController
 		$userLevel = session()->get('level');
 		
 		if ($userLevel == 3 || $userLevel == 4) {
-			return redirect()->to('/Voting'); // Redirect ke halaman Voting untuk level 3 dan 4
+			echo view('header');
+			echo view('Dashboard2');
+			echo view('menuutama');
+			echo view('footer');
 		} elseif ($userLevel == 1 || $userLevel == 2) {
 			echo view('header');
 			echo view('Dashboard');

@@ -60,9 +60,10 @@
         $data = [];
 
         while ($row = mysqli_fetch_assoc($result)) {
-          $username_ketua = mysqli_fetch_assoc(mysqli_query($conn, "SELECT username FROM user WHERE id_user = " . $row["ketua"]))["username"];
-          $username_wakil = mysqli_fetch_assoc(mysqli_query($conn, "SELECT username FROM user WHERE id_user = " . $row["wakil"]))["username"];
-          $labels[] = $username_ketua . " & " . $username_wakil;
+          $username_ketua = mysqli_fetch_assoc(mysqli_query($conn, "SELECT nama FROM user WHERE id_user = " . $row["ketua"]))["nama"];
+          $username_wakil = mysqli_fetch_assoc(mysqli_query($conn, "SELECT nama FROM user WHERE id_user = " . $row["wakil"]))["nama"];
+          $username_wakil2 = mysqli_fetch_assoc(mysqli_query($conn, "SELECT nama FROM user WHERE id_user = " . $row["wakil2"]))["nama"];
+          $labels[] = $username_ketua . " & " . $username_wakil. " & " . $username_wakil2;
           $data[] = $row["suara"];
         }
         mysqli_close($conn);
